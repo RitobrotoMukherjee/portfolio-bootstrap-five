@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    position: relative;
+    background-image: url("../assets/backgrounds/desktop/Header-desktop.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.nav-item > a:hover {
+    color: #06452a;
+}
+
+.scroll-btn {
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 32px;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+  }
+  
+  .scroll-btn > img {
+    height: 24px;
+    width: 22px;
+  }
+
+@media screen and (min-width: 768px) {
+    #mobile-navbar {
+        display: none;
+    }
+
+    #mobile-footer-email,
+    .social-media-contact {
+        display: none;
+    }
+    #my-portfolio{
+        margin-top: 25px;
+        background-color: #e5e5e5;
+    }
+    .skills-list {
+        background-color: #e5e5e5;
+        border-radius: 4px;
+    }
+    footer{
+        margin-top: 25px;
+        background-color: #e5e5e5;
+    }
+}
