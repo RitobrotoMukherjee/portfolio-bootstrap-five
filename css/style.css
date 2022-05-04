@@ -9,7 +9,7 @@
 body {
     position: relative;
     background-image: url("../assets/backgrounds/desktop/Header-desktop.png");
-    background-size: 100%;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
@@ -39,5 +39,17 @@ body {
     #mobile-footer-email,
     .social-media-contact {
         display: none;
+    }
+    #my-portfolio{
+        margin-top: 25px;
+        background-color: #e5e5e5;
+    }
+    .skills-list {
+        background-color: #e5e5e5;
+        border-radius: 4px;
+    }
+    footer{
+        margin-top: 25px;
+        background-color: #e5e5e5;
     }
 }
