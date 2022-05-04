@@ -7,22 +7,14 @@
 }
 
 body {
+    position: relative;
     background-image: url("../assets/backgrounds/desktop/Header-desktop.png");
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: #42526e;
-}
-
-a:hover {
-    color: #36b37f;
+.nav-item > a:hover {
+    color: #06452a;
 }
 
 .scroll-btn {
